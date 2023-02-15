@@ -1,0 +1,116 @@
+@import "font.css";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #f4f2f7;
+}
+.big-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.right{
+    width: 15%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #212a32;
+    color: #FFFFFF;
+    font-family: 'iran-sans';
+}
+.left{
+    width: 85%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.right .admin-header{
+    text-align: center;
+    margin-top: 15px;
+}
+.right .menue{
+    text-align: right;
+    font-size: 13px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.right .menue .item-menue{
+    padding: 60px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 100%;
+    display: inline-block;
+}
+.right .menue .item-menue i{
+    padding-left: 8px;
+}
+.left .left-header{
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    line-height: 40px;
+    font-family: 'iran-sans';
+    font-size: 12px;
+    padding-left: 25px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+.left .left-header i{
+    padding-left: 5px;
+}
+.left .info-box{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left .info-box .item-box{
+    width: 400px;
+    height: 180px;
+    color: #FFFFFF;
+    font-family: 'iran-sans';
+    direction: rtl;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+.left .info-box .item-box .titel{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left .info-box .item-box .titel .titel-number{
+    font-size: 40px;
+    font-weight: 700;
+}
+.left .info-box .item-box .titel .titel-name{
+    font-size: 18px;
+}
+.left .info-box .item-box .icon{
+    color: rgba(0,0,0,0.3);
+    font-size: 90px;
+}
+.container,.row,.col-lg-12,.card{
+    overflow-y: hidden;
+}
+.card-form {
+    margin: 0 -150px;
+}
+
+
+
